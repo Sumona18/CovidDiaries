@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Create:Covid Diaries</title>
+
+
+    <style>
+        body {
+            background-color: rgb(214, 214, 214);
+        }
+
+        .head1 {
+            padding-top: 200px !important;
+            padding: 25px;
+            background-color: black;
+            opacity: 0.67;
+
+            font-weight: 1000;
+            font-size: 500%;
+            color: white;
+            font-style: italic;
+            font-family: 'Pattaya', sans-serif;
+
+        }
+
+        .bg1 {
+            background: url("https://images.theconversation.com/files/354023/original/file-20200821-18-1czt6ka.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop");
+
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        .navbar {
+            opacity: 0.9;
+        }
+
+        .head2 {
+            font-size: 300%;
+            font-family: 'Merriweather', serif;
+            font-weight: bolder;
+        }
+
+        .intro {
+            margin: 10px;
+            padding-top: 150px;
+
+        }
+
+        .para1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 150%;
+        }
+
+        .btn1 {
+            margin-top: 150px;
+            margin-left: 50px;
+            font-size: 300%;
+            font-family: cursive;
+            border-color: rgb(54, 54, 54);
+            border-width: 10px;
+
+
+        }
+
+        .bg2 {
+            background-color: rgb(49, 49, 49);
+            margin-top: 100px;
+
+        }
+
+        #links :hover {
+            color: rgb(69, 69, 209) !important;
+        }
+
+        .odi :hover {
+            color: rgb(69, 69, 209) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="CovidDiaries.html#footer"><img height="40px" width="40px"
+                    src="http://freevector.co/wp-content/uploads/2009/10/61718-open-diary.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="CovidDiaries.html#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="writediary.html">Create</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.mygov.in/covid-19/">Covid Info</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="margin: 20px; margin-right: 200px; margin-top: 80px;">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Enter your name">
+            <label for="floatingInput">Name</label> <br>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Your Diary" id="floatingTextarea2"
+                style="height: 300px"></textarea>
+            <label for="floatingTextarea2">Your Diary</label>
+
+            <button style="font-size: 20px; margin-top:50px; margin-left: 170px;"
+                class=" text-center btn1 btn-outline-dark; " type="submit" onclick="window.location.reload()"> <b style="font-size: 25px;"> Submit your
+                    Diary </b></button></a>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <footer class="bd-footer py-5 mt-5 bg-light">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/"
+                            aria-label="Bootstrap">
+                            <img src="http://freevector.co/wp-content/uploads/2009/10/61718-open-diary.png" width="40"
+                                height="40" class="d-block me-2" viewBox="0 0 118 94" role="img">
+                            <span style="font-family: 'Pattaya', sans-serif;" class="fs-5">Covid डायरी</span>
+                        </a>
+                        <ul class="list-unstyled small text-muted">
+                            <li class="mb-2">Designed and built with lots of love by Sumona Sarkar</a>.</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img style="padding-left: 30px;" height="200px" width="200px"
+                            src="http://freevector.co/wp-content/uploads/2009/10/61718-open-diary.png" alt="">
+
+                    </div>
+
+
+
+                    <div class="col-md-2">
+                        <h4>Links</h4>
+                        <ul class="list-unstyled">
+
+                            <div id="links">
+                                <li class="mb-2"><a style="text-decoration:none; color: rgb(104, 104, 104);"
+                                        href="CovidDiaries.html#home">Home</a></li>
+                                <li class="mb-2"><a style="text-decoration:none; color: rgb(104, 104, 104);"
+                                        href="explore.html">Explore</a></li>
+                                <li class="mb-2"><a style="text-decoration:none; color: rgb(104, 104, 104);"
+                                        href="writediary.html">Create</a></li>
+                                <li class="mb-2"><a style="text-decoration:none; color: rgb(104, 104, 104);"
+                                        href="WarriorDiaries.html">Warrior Diaries</a>
+                                </li>
+                                <li class="mb-2"><a style="text-decoration:none; color: rgb(104, 104, 104);"
+                                        href="lostDiaries.html">Lost Diaries</a></li>
+
+                            </div>
+                        </ul>
+                    </div>
+
+                </div>
+        </footer>
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
